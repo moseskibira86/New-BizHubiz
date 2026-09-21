@@ -1,0 +1,7 @@
+{
+  "name": "BizHubKE",
+  "description": "The Digital Business Partner for Kenyan SMEs - Business management, sales, expenses, invoices, inventory, compliance, and growth.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+

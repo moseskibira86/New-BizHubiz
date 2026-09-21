@@ -1,0 +1,40 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand-navy: #0B2440;
+  --color-brand-navy-light: #143761;
+  --color-brand-green: #0F7A4C;
+  --color-brand-green-hover: #0c643e;
+  --color-brand-green-light: #e8f7ef;
+  --color-brand-gold: #F5B400;
+  --color-brand-gold-hover: #db9f00;
+  --color-soft-mint: #E8F7EF;
+  --color-soft-sky: #EAF3FB;
+  --color-soft-blush: #FBEAF1;
+  --color-soft-peach: #FDF1E4;
+  --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+}
+
+body {
+  font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  color: #0f172a;
+  background-color: #f8fafc;
+  margin: 0;
+  padding: 0;
+}
+
+/* Custom scrollbar for dense data panels */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
